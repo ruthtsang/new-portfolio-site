@@ -1,0 +1,290 @@
+body {
+	border: 0;
+  padding-top: 50px;
+  margin: 0;
+  background-color: #eeeeeb;
+}
+body, h1, h2, h3, h4, h5, h6, p{
+	font-family: "Lato", "Helvetica","Arial", sans-serif;
+}
+a:link, a:visited{
+	color:#46909e;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color:#1a727a;
+	text-decoration: none;
+}
+/*Montserrat Proxima Nova Crimson Text "Helvetica-Neue", "Helvetica Neue", */
+.btn-view:link, .btn-view:visited {
+	color: #ffffff;
+	background-color: #46909e;
+	border-radius: 2px;
+	border:none;
+	padding: 8px 30px;
+	font-weight: 200;
+	font-size: 14px;
+	text-transform: uppercase;
+	box-shadow: 0;
+	letter-spacing: 1px;
+}
+.btn-view:hover, .btn-view:active {
+	color: #ffffff;
+	background-color: #1a727a;
+	border-radius: 2px;
+}
+.navbar-ruth {
+	background-color: #ffffff;
+	color:#46909e;
+	border-bottom: solid 1px #c4c4c4;
+}
+.navbar-default .navbar-brand {
+	color:#46909e;
+	font-size: 22px;
+	font-weight: 400;
+}
+.container .home-title{
+	border-radius: 0px;
+	padding: 20px 0;
+	clear:both;
+}
+.header-container {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  background-color: #eeeeee;
+}
+.header-container h1{
+	padding-top: 60px;
+	padding-bottom: 50px;
+	color:#46909e;
+	font-size: 38px;
+	line-height: 1.2;
+}
+.header-container h2{
+	padding-top: 0;
+	padding-bottom: 60px;
+	color:#555;
+	font-size: 20px;
+	line-height: 1.2;
+}
+.header-container span {
+	font-size: 20px;
+	font-weight: 500;
+	color: #1a727a;
+}
+.navbar-nav{
+	padding: 0px 20px 0px 25px;
+	color:#46909e;
+}
+.home-title h1{
+	color:#46909e;
+	font-size: 56px;
+	padding: 40px 0 0 0;
+}
+.home-title p{
+	line-height: 1;
+}
+.case-study-module {
+	color: #555;
+	margin-bottom: 20px;
+	clear:both;
+}
+.case-study-module hr{
+	border-top: 1px solid #c4c4c4;
+	padding-bottom: 20px;
+}
+.case-study-module h2 {
+	font-size: 30px;
+	margin-top: 0;
+}
+.case-study-module p {
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 300;
+}
+.case-study-category {
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: -20px;
+	color: #555;
+}
+.img-responsive {
+	padding-bottom: 10px;
+}
+.detail-container {
+	padding-top: 20px;
+}
+.detail-module {
+	padding-top: 30px;
+	clear: both;
+}
+.detail-module h1 {
+	font-size: 30px;
+	margin-top: 0;
+	font-weight: 500;
+}
+.detail-module h2 {
+	font-size: 20px;
+	line-height: 1.3;
+	margin-top: 0;
+	font-weight: 400;
+	padding-right: 20px;
+}
+.detail-module hr {
+	border-top: 1px solid #c4c4c4;
+	padding-right: 20px;
+}
+.detail-module p {
+	font-size:  16px;
+	line-height: 1.5;
+	padding-bottom: 20px;
+}
+.detail-title {
+	font-size: 22px;
+	line-height: 1.3;
+	font-weight: 400;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+.quote-module {
+	font-size: 22px;
+	color: #46909e;
+	line-height: 1.3;
+	font-weight: 600;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+.quote-origin {
+	font-size: 14px;
+	color: #1a727a;
+	padding-bottom: 20px;
+}
+.about-module {
+	color: #555;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 0;
+	clear:both;
+}
+.about-module p {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+.about-module h2 {
+	font-size: 26px;
+	margin-top: 0;
+}
+.nopadding {
+	padding-left: 0px;
+}
+
+/* mobile hamburger icon */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 4px;
+}
+.footer {
+	font-size: 14px;
+	color: #555;
+	padding: 50px 0;
+}
+.footer hr{
+	border-top: 1px solid #c4c4c4;
+}
+
+#about_icons{
+	width:430px;
+	position:relative;
+	margin-left:0;
+	float:left;
+	margin-top:20px;
+}
+/*social media acc */
+#icon_wrapper{
+	position:relative;
+}
+#icon_wrapper li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:0;
+}
+#icon_wrapper li, #icon_wrapper a{
+	height:43px;
+	display:block;
+}
+.behance{
+	left:0px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 0;
+}
+.behance a:hover{
+	background:url(../images/icon_sprite.png) -44px 0;
+}
+.dribbble{
+	left:54px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -43px;
+}
+.dribbble a:hover{
+	background:url(../images/icon_sprite.png) -44px -43px;
+}
+.facebook{
+	left:108px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -86px;
+}
+.facebook a:hover{
+	background:url(../images/icon_sprite.png) -44px -86px;
+}
+.googleplus{
+	left:162px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -129px;
+}
+.googleplus a:hover{
+	background:url(../images/icon_sprite.png) -44px -129px;
+}
+.linkedin{
+	left:216px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -172px;
+}
+.linkedin a:hover{
+	background:url(../images/icon_sprite.png) -44px -172px;
+}
+.pinterest{
+	left:270px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -215px;
+}
+.pinterest a:hover{
+	background:url(../images/icon_sprite.png) -44px -215px;
+}
+.tumblr{
+	left:324px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -258px;
+}
+.tumblr a:hover{
+	background:url(../images/icon_sprite.png) -44px -258px;
+}
+.twitter{
+	left:378px;
+	width:44px;
+	background:url(../images/icon_sprite.png) 0 -301px;
+}
+.twitter a:hover{
+	background:url(../images/icon_sprite.png) -44px -301px;
+}
